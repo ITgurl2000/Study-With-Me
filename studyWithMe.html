@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="studyWithMe.css"/> 
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+     </head>  
+    
+    <body>  
+        <h1>Study With me</h1> 
+        
+      
+        <video loop autoplay muted playsinline id="bgVideo" > 
+            <source class="dayVideo"src="day.mp4" type="video/mp4">
+            <source class="nightVideo"src="night.mp4" type="video/mp4"> 
+
+        </video> 
+        <p>"If I can't do it, I will work on it until I can" </p> 
+        <p>-Yuzuru Hanyu</p> 
+        <div class="dayNight">
+        <button class="Day">Day</button> 
+        <button Class="Night">Night</button> 
+    </div>
+        <div class="TimerContainer">
+            <h3 class="TimerDisplay">00:00:00:000</h3>
+            <div id="Buttons">
+                <button class="resetButton">
+                    <i class='bx bx-reset' id="reset"></i>
+                </button>
+                <button class="playButton">
+                    <i class='bx bx-play-circle' id="play"></i>
+                </button>
+                <button class="pauseButton">
+                    <i class='bx bx-pause-circle'></i>
+                </button>
+            </div>
+        </div>
+        <div class="toDoListContainer"> 
+            <form>  
+                <h4>ToDO List</h4>
+                <input type="text" class="input"> 
+                <button class="addBtn">Add</button>
+                    <ul class="list"></ul>
+            </form>
+        
+        <script type="text/javascript" src="studyWithMe.js"></script>
+    </div>
+    </body>
+</html>

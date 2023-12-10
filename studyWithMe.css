@@ -1,0 +1,141 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+#bgVideo{    
+    background-attachment:fixed;
+    position: absolute;  
+    background-size: auto;
+    top:0;
+    left: 0;
+    width:100%; 
+    max-height:100%;   
+    overflow-y: scroll; 
+    object-fit: cover; 
+    z-index: -1;
+
+} 
+.TimerContainer{  
+    margin-top: 50px;
+    backdrop-filter: blur(3px); 
+    width:200px; 
+    height:100px; 
+    border-radius: 40px; 
+    margin-bottom: 50px;    
+    margin-left: 28px; 
+
+
+} 
+.TimerDisplay{   
+    margin-top: 40px;
+    display: flex; 
+    justify-content: center;
+}
+#Buttons{  
+    margin-top: 20px; 
+
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+}  
+
+button{ 
+    border-radius: 20px; 
+    border: none;  
+    background-color: rgb(255, 255, 255); 
+    cursor:pointer; 
+    font-family: 'Silkscreen', sans-serif;
+} 
+.deleteBtn{ 
+    border-radius: 20px; 
+    border: none;     cursor:pointer; 
+    font-family: 'Silkscreen', sans-serif;
+
+}
+.toDoListContainer{ 
+    margin-top: 50px;
+    backdrop-filter: blur(10px); 
+    width:200px; 
+    height:250px; 
+    border-radius: 40px; 
+    margin-bottom: 50px; 
+    margin-left: 28px;  
+    overflow-y: scroll;  
+
+
+} 
+
+.input{ 
+    border-radius: 40px; 
+    border:none; 
+    right:45px; 
+    margin-bottom: 20px; 
+    width:100%;
+}    
+h4{  
+    text-align: center;
+}  
+ul li input[type='checkbox'] { 
+accent-color: white; 
+color: black;}   
+body{ 
+    font-family: 'Silkscreen', sans-serif;   
+      font-size: 15px;
+} 
+.Day{ 
+    margin-right: 20px; 
+    margin-left: 57px; 
+    width:55px;
+} 
+h1{ 
+    margin-left: 20px; 
+
+}
+.Day:hover::before{ 
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgb(255, 247, 7);
+} 
+.Day:hover{   
+    color: rgb(205, 198, 0);;
+    box-shadow: 0 0 5px rgb(255, 247, 7); 
+    text-shadow:0 0 5px rgb(255, 247, 7);
+
+
+
+} 
+.Night:hover::before{ 
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgb(7, 19, 255);
+} 
+.Night:hover{   
+    color: rgb(12, 20, 171);;
+    box-shadow: 0 0 5px rgb(7, 19, 255); 
+    text-shadow:0 0 5px rgb(7, 19, 255); 
+}
+
+
+.resetButton:active{ 
+    background-color: black; 
+    color:white;
+} 
+.playButton:active{ 
+    background-color: black; 
+    color:white;
+}   
+.pauseButton:active{ 
+    background-color: black; 
+    color:white;
+}  
+.addBtn:active{ 
+    background-color: black; 
+    color:white;
+} 
+ .deleteBtn:active{ 
+    background-color: black; 
+    color:white;
+}  
+p{ 
+    margin-left: 1050px;  
+    cursor: pointer;
+} 
+.dayNight{ 
+    margin-top: -50px;
+} 
